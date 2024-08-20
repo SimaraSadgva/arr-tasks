@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function duzelis(arr) {
+        const tekrarsz = new Set(arr);
+        const newarr = Array.from(tekrarsz);
+
+        return newarr;
+      }
+
+      const result = duzelis([1, 2, 2, 3, 4, 4, 5]);
+      console.log(result);
+    </script>
+  </body>
+</html>
